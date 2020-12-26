@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <PackageTags>CryptoUtils</PackageTags>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <Version>1.0.0.1</Version>
+        <Description>加密工具</Description>
+        <FileVersion>1.0.0.0</FileVersion>
+        <Authors>Yuributa.Moyu</Authors>
+        <PackageId>Moyuu.CryptoUtils</PackageId>
+        <Company>Yuributa.Moyu</Company>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BouncyCastle.NetCore" Version="1.8.8" />
+        <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+    </ItemGroup>
+
+</Project>
